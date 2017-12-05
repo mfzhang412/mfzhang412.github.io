@@ -160,7 +160,7 @@
       <p id="text2" style="visibility:hidden">Physics undergrad at the University of Illinois at Urbana-Champaign</p>
       
       <div id="icons">
-        <a href="https://www.google.com/search?q=me&rlz=1C1CHZL_enUS748US748&oq=me&aqs=chrome..69i57j69i60l2j69i61j0j69i60.522j0j7&sourceid=chrome&ie=UTF-8" target="_blank" rel="nofollow"><img id="person" src="personicon.png" /></a>
+        <a href="https://www.google.com/search?rlz=1C1CHZL_enUS748US748&biw=1422&bih=683&tbm=isch&sa=1&ei=oiwmWv-MMoPJjwSC6rm4Bw&q=dank+memes&oq=dank+memes&gs_l=psy-ab.3..0i67k1j0j0i67k1j0l4j0i67k1j0l2.3053.3419.0.3575.5.4.0.0.0.0.120.358.3j1.4.0....0...1c.1.64.psy-ab..2.3.296...0i10k1j0i7i30k1.0.QSg6UKKRLog" target="_blank" rel="nofollow"><img id="person" src="personicon.png" /></a>
         
         <a href="mailto:mfzhang12@gmail.com?subject=Please join our company!&body=I was so impressed with your professional website. Please join our company. We will make you CEO and you will be earning lots of money.%0D%0A%0D%0ABest Regards,%0D%0ADesperate company in need of true leadership" target="_blank" rel="nofollow"><img id="email" src="emailicon.png" /></a>
         
