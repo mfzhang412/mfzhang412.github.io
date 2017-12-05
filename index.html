@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    <script>
+      window.onload = function() {
+      var timer = setTimeout("showText()",11500)
+     }
+      
+      function showText() {
+      document.getElementById("text1").style.visibility="visible";
+      document.getElementById("text2").style.visibility="visible";
+    }
+    </script>
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Michael Zhang</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    
+    
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Times, sans-serif;
+      }
+      
+      .background-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+      }
+      
+      #video-bg-elem {
+        position: absolute;
+        top: -7%;
+        left: 0;
+        min-height: 100%;
+        min-width: 100%;
+      }
+      
+      .content {
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+        z-index: 1000;
+        background-color: rgba(0,0,0,0)
+      }
+      .content h1 {
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: #fff;
+        padding-top: 20%;
+        margin-bottom: 10px;
+      }
+      
+      .content p {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: #aaa;
+      }
+      
+      #icons {
+        float: left;
+        position: relative;
+        left: 44.8%;
+        padding-top: 15px;
+      }
+      
+      #icons a>img
+      {
+        padding-right: 15px;
+      }
+      /**
+      #person {
+        position: absolute;
+        top: -50%;
+        left: 50%;
+        min-height: 100%;
+        min-width: 100%;
+      }
+      
+      #email {
+        position: absolute;
+        width: 10%;
+        min-height: 10%;
+        z-index: 1000;
+        position: center;
+      }
+      
+      #globe {
+        position: absolute;
+        width: 10%;
+        min-height: 10%;
+        z-index: 1000;
+        position: center;
+      }
+      */
+    </style>
+    
+    
+  </head>
+  
+  
+  <body bgcolor="#000000">
+    <script src="index.js"></script>
+    
+    <div class="background-wrap">
+      
+      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
+        <source src="video.mp4" type="video/mp4">
+        Video not supported
+      </video>
+      
+      <!--
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zLSe7RxtJ4o?rel=0&amp;controls=0&amp;showinfo=0?autplay=1" frameborder="0" allowfullscreen></iframe>
+      -->
+      
+      
+      <audio controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 11200)" loop="true" style="visibility:hidden">
+      <source src="music.mp3" type="audio/mp3" />
+    </audio>
+    
+    <audio controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 11500)" loop="true" style="visibility:hidden">
+      <source src="bwong.mp3" type="audio/mp3" />
+    </audio>
+    <!--
+    <audio controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 9500)" loop="true" style="visibility:hidden">
+      <source src="bass.mp3" type="audio/mp3" />
+    </audio>
+    -->
+    
+      
+    </div>
+    
+    
+    <div class="content"> 
+      
+      <h1 id="text1" style="visibility:hidden">Michael Zhang</h1>
+      <p id="text2" style="visibility:hidden">Physics undergrad at the University of Illinois at Urbana-Champaign</p>
+      
+      <div id="icons">
+        <a href="https://www.google.com/search?q=me&rlz=1C1CHZL_enUS748US748&oq=me&aqs=chrome..69i57j69i60l2j69i61j0j69i60.522j0j7&sourceid=chrome&ie=UTF-8" target="_blank" rel="nofollow"><img id="person" src="personicon.png" /></a>
+        
+        <a href="mailto:example@email.com?subject=Please join our company!&body=I was so impressed with your professional website. Please join our company. We will make you CEO and you will be earning lots of money.%0D%0A%0D%0ABest Regards,%0D%0ADesperate company in need of true leadership" target="_blank" rel="nofollow"><img id="email" src="emailicon.png" /></a>
+        
+        <a href="https://mfzhang412.github.io/" target="_blank" rel="nofollow"><img id="globe" src="globeicon.png" /></a>
+      </div>
+    
+      
+    </div>
+    
+    
+  </body>
+</html>
